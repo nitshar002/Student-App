@@ -1,17 +1,67 @@
-# student_app
+# Student App
 
-A new Flutter project.
+Student Nexus is a student-focused assistant designed to bring academic organization, career preparation, and student wellness tools into one application.
 
-## Getting Started
+The project was developed as a summer software engineering internship with the goal of exploring how an integrated student platform could simplify some of the tools and resources students use throughout the semester.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+### Academic Organization
+- Upload a course syllabus
+- Parse syllabus information into structured course data
+- Organize courses, assignments, and tasks
+- View academic information through a centralized dashboard
+- Track upcoming coursework and deadlines
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### AI Interview Preparation
+- Practice mock interviews
+- Receive AI-powered interview questions and interactions
+- Simulate an interview-style experience
+- Review interview sessions and responses
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Wellness & Mental Health
+- Student wellness resources and tools
+- Track wellness-related information
+- Features designed to encourage healthy habits and self-awareness
+
+### Sleep
+- Sleep-related tracking and insights
+- Tools designed to help students build healthier sleep habits
+
+### User Accounts
+- User authentication through Supabase
+- User-specific application data
+- Database-backed profiles and student information
+
+## Tech Stack
+
+**Frontend**
+- Flutter
+- Dart
+
+**Backend & Database**
+- Supabase
+- PostgreSQL
+- Supabase Authentication
+
+**AI**
+- Gemini API
+
+**Platforms**
+- Android
+- Web
+- iOS
+- Windows/macOS/Linux support through Flutter
+
+## Architecture
+
+Student App uses a Flutter frontend connected to Supabase for authentication and persistent data storage, with AI functionality integrated through an external AI API.
+
+```text
+Flutter Application
+        │
+        ├── Supabase Authentication
+        │
+        ├── Supabase Database
+        │
+        └── Gemini API
