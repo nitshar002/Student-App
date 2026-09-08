@@ -57,11 +57,8 @@ The project was developed as a summer software engineering internship with the g
 
 Student App uses a Flutter frontend connected to Supabase for authentication and persistent data storage, with AI functionality integrated through an external AI API.
 
-```text
-Flutter Application
-        │
-        ├── Supabase Authentication
-        │
-        ├── Supabase Database
-        │
-        └── Gemini API
+## Author
+
+**Nitya Sharma**  
+Computer Science & Operations Management  
+Indiana University Bloomington
